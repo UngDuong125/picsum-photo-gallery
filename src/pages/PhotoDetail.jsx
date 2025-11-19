@@ -20,7 +20,7 @@ export default function PhotoDetail() {
 
             <h1 className="text-2xl font-bold mt-4">Photo by {photo.author}</h1>
             <p className="text-gray-600 mt-2">
-                No description available (API doesn’t provide one).
+                No description available.
             </p>
         </div>
     );

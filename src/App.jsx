@@ -4,7 +4,7 @@ import PhotoDetail from "./pages/PhotoDetail";
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/picsum-photo-gallery">
             <Routes>
                 <Route path="/" element={<PhotoList />} />
                 <Route path="/photos/:id" element={<PhotoDetail />} />
